@@ -1,0 +1,20 @@
+{
+    "users": [
+      {
+        "FirstName": "John Doe",
+        "LastName": "dwayne",
+        "Address": "123 Sun Street",
+        "Email": "Test@test.com",
+        "password":"Test",
+        "id": 1
+      },
+      {
+        "FirstName": "John Doe",
+        "LastName": "dwayne",
+        "Address": "123 Sun Street",
+        "Email": "Test@test.com",
+        "password":"Test",
+        "id": 2
+      }
+    ]
+  }

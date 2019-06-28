@@ -1,0 +1,35 @@
+<div class="mt-4">
+    <h3>update Users</h3>
+    <form [formGroup]="usersForm" (submit)="updateCustomer()" class="form-inline mb-4">
+  
+      <label class="sr-only" for="Name">First Name</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <input type="text" class="form-control" formControlName="FirstName" placeholder="First name">
+      </div>
+  
+      <label class="sr-only" for="Phone">Last Name</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <input type="text" class="form-control" formControlName="LastName" placeholder="Last Name">
+      </div>
+  
+      <label class="sr-only" for="Phone">Address</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <input type="text" class="form-control" formControlName="Address" placeholder="Address">
+      </div>
+      <label class="sr-only" for="Address">Email</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <input type="text" class="form-control" formControlName="Email" placeholder="Email">
+      </div>
+      <label class="sr-only" for="membership">Gender</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <select formControlName="Gender" class="form-control">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+      </div>
+
+  
+      <button type="submit" class="btn btn-primary mb-2">update user</button>
+  
+    </form>
+  </div>
